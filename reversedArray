@@ -1,0 +1,9 @@
+//Convert number to reversed array of digits
+
+
+function digitize(n){
+    const str = String(n)
+    console.log(str.split('').map(Number).reverse())
+}
+
+digitize(5456789)
